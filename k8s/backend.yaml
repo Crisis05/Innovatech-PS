@@ -24,7 +24,7 @@ spec:
       terminationGracePeriodSeconds: 20
       containers:
       - name: venta
-        image: 911888005875.dkr.ecr.us-east-1.amazonaws.com/back-ventas:latest
+        image: 344024035966.dkr.ecr.us-east-1.amazonaws.com/back-ventas:latest
         ports:
         - containerPort: 8080
         lifecycle:
@@ -99,7 +99,7 @@ spec:
       terminationGracePeriodSeconds: 20
       containers:
       - name: despacho
-        image: 911888005875.dkr.ecr.us-east-1.amazonaws.com/back-despacho:latest
+        image: 344024035966.dkr.ecr.us-east-1.amazonaws.com/back-despacho:latest
         ports:
         - containerPort: 8081
         lifecycle:
